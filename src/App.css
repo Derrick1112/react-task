@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -35,4 +36,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Custom styles */
+.button-link {
+  margin: 10px;
+  text-decoration: none;
+}
+
+.styled-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.green-button {
+  background-color: #4CAF50;
+}
+
+.blue-button {
+  background-color: #2196F3;
+}
+
+.red-button {
+  background-color: #f44336;
+}
+
+.orange-button {
+  background-color: #FF9800;
+}
+
+.page-style {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.form-group {
+  margin-bottom: 15px; /* Adjust the spacing between form groups */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; /* Adjust the spacing between label and input */
+}
+
+input {
+  padding: 8px; /* Adjust padding for better appearance */
+  box-sizing: border-box; /* Include padding in the input's total width */
 }
